@@ -75,8 +75,11 @@ Command line:
 
     # es_zabbix.py indices indices:my_cool_index:primaries:indexing:index_time_in_millis
     240183
-    
+
 Item in Zabbix:
 
     elasticsearch[indices,indices:my_cool_index:primaries:indexing:index_time_in_millis]
 
+## ToDo
+
+Add support for elasticsearch authorization
